@@ -5,6 +5,8 @@ public abstract class MiniGame : MonoBehaviour
 {
     public float startTime;
     private float time;
+
+    [HideInInspector]
     public GlobalInformation g;
     private void Awake()
     {
@@ -16,6 +18,7 @@ public abstract class MiniGame : MonoBehaviour
         if (time > 0)
         {
             time -= Time.deltaTime;
+            Debug.Log(time);
         }
         else
         {

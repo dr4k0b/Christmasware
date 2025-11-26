@@ -1,16 +1,19 @@
 using UnityEngine;
 
-public class Present : MonoBehaviour
+public class Present : MiniGame
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public int presentHealth;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (presentHealth <= 0)
+        {
+            Win();
+        }
+        if (Input.GetKeyUp(KeyCode.Space))
+        {
+            presentHealth--;
+        }
+
     }
 }
