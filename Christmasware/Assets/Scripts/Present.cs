@@ -6,6 +6,7 @@ public class Present : MiniGame
 
     void Update()
     {
+        Timer();
         if (presentHealth <= 0)
         {
             Win();
