@@ -1,34 +1,97 @@
 fileFormatVersion: 2
-guid: 94fcd66f9d1285c48bae0e6fa8f4d6c6
+guid: 777403eb06e880d45b91d611291a8e99
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5931842347579807508
-    second: New Piskel-1.png_0
+      213: 2229002023863270546
+    second: Gris_anim 1_0
   - first:
-      213: 6837126915485482293
-    second: New Piskel-1.png_1
+      213: 1568722552293843153
+    second: Gris_anim 1_1
   - first:
-      213: 2435636059595699315
-    second: New Piskel-1.png_2
+      213: -6993779404062710326
+    second: Gris_anim 1_2
   - first:
-      213: -5974945345809412475
-    second: New Piskel-1.png_3
+      213: 6320817394603503120
+    second: Gris_anim 1_3
   - first:
-      213: 2224300187668699664
-    second: New Piskel-1.png_4
+      213: -8981109415351801189
+    second: Gris_anim 1_4
   - first:
-      213: 6967386063605401298
-    second: New Piskel-1.png_5
+      213: -8589821586915691386
+    second: Gris_anim 1_5
   - first:
-      213: -30817383775939028
-    second: New Piskel-1.png_6
+      213: 205995624024950437
+    second: Gris_anim 1_6
   - first:
-      213: 5749274687971464000
-    second: New Piskel-1.png_7
+      213: -6834464447039272588
+    second: Gris_anim 1_7
   - first:
-      213: -6588394615312561063
-    second: New Piskel-1.png_8
+      213: 5190707490705223001
+    second: Gris_anim 1_8
+  - first:
+      213: 3320701020008578689
+    second: Gris_anim 1_9
+  - first:
+      213: 5211925780882853990
+    second: Gris_anim 1_10
+  - first:
+      213: 2935040832257810204
+    second: Gris_anim 1_11
+  - first:
+      213: 4401199592047614291
+    second: Gris_anim 1_12
+  - first:
+      213: -7791495443008025209
+    second: Gris_anim 1_13
+  - first:
+      213: 8187888779102649653
+    second: Gris_anim 1_14
+  - first:
+      213: -4301195561259817875
+    second: Gris_anim 1_15
+  - first:
+      213: -7680394422894392521
+    second: Gris_anim 1_16
+  - first:
+      213: 3792288931789017028
+    second: Gris_anim 1_17
+  - first:
+      213: -4921345286818779084
+    second: Gris_anim 1_18
+  - first:
+      213: -1802259814736722791
+    second: Gris_anim 1_19
+  - first:
+      213: 82973572275654366
+    second: Gris_anim 1_20
+  - first:
+      213: 2846316271116715398
+    second: Gris_anim 1_21
+  - first:
+      213: 7804776110563261450
+    second: Gris_anim 1_22
+  - first:
+      213: 7592886800091851083
+    second: Gris_anim 1_23
+  - first:
+      213: 2429107977301153502
+    second: Gris_anim 1_24
+  - first:
+      213: 4524875062110940208
+    second: Gris_anim 1_25
+  - first:
+      213: 2064342230366861186
+    second: Gris_anim 1_26
+  - first:
+      213: 7390622879033504938
+    second: Gris_anim 1_27
+  - first:
+      213: 1552512041095439449
+    second: Gris_anim 1_28
+  - first:
+      213: -1072341835676911711
+    second: Gris_anim 1_29
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -128,6 +191,446 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+        y: 864
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17380957d9812de468b6101ef9793c79
+      internalID: -1951443471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc7fe67057ed673428b9597a0a1935b6
+      internalID: -1885847754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558b4479c1f7c19469d0a880afbad83e
+      internalID: -1692329207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab513369412291d44a8e30f90ded90dc
+      internalID: 648376786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf4c33f97b2cbd4686ebaaf2fce3358
+      internalID: 1278531984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039df7bd44ff5394d8cbfb93c9634921
+      internalID: -748700407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff6b8c5349b3fa46ae61be80f65765b
+      internalID: -954247855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc35c571865dd0a4bbf6edea4764bd4d
+      internalID: 1608878951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddfe33c97b999548852f9473cae99af
+      internalID: -1179426430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafc99db2669d804ea588e37d47dd6d7
+      internalID: 468666326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3b1b0a852885e47b2fa0a3fafd32ff
+      internalID: -680687680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14267ef57ddb8f64cbef673f5fdced15
+      internalID: 1630815203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7085d74440ef7074b9faf8f4abb82f12
+      internalID: 958233106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a23de3342f39048b626887be83e2c3
+      internalID: 975937482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c2c61aef2d1504daa80305f525a338
+      internalID: 1982730431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2541eb9c75e36041a65d18a0739d161
+      internalID: 867188381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ee9f46b17dfad41b8375afe575c3e1
+      internalID: 954930628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b34c38fbd301b4399180e49ec5d47c
+      internalID: 1082251425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51ad7468e7ad854491787ebb42578ff
+      internalID: -678413148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49c7fabf9315ce41ab544f6a677ea1b
+      internalID: 2092318649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gris_anim_20
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 224
         width: 240
         height: 32
@@ -139,14 +642,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19ee643c381a4f647b0604c48b231585
-      internalID: -816109179
+      spriteID: 0ce84ac872b60f342a07939ad398612e
+      internalID: 1715115640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gris_anim_1
+      name: Gris_anim_21
       rect:
         serializedVersion: 2
         x: 0
@@ -161,14 +664,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0c5b8f383893cb42acaebebe0782d90
-      internalID: -1868284837
+      spriteID: 0ff54646669a1cc468b1d74a2c0b4762
+      internalID: 405732922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gris_anim_2
+      name: Gris_anim_22
       rect:
         serializedVersion: 2
         x: 0
@@ -183,14 +686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e6ed74d49447ae44af6523d050c3786
-      internalID: -1640246779
+      spriteID: 44a380172f516554ab5f8e23708fef5a
+      internalID: 304274403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gris_anim_3
+      name: Gris_anim_23
       rect:
         serializedVersion: 2
         x: 0
@@ -205,14 +708,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe3cc12ec3ab21947995ebc98c4f9b3f
-      internalID: 1426927356
+      spriteID: f4540ba98ad01534ebc98ec473b581fb
+      internalID: 778706282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gris_anim_4
+      name: Gris_anim_24
       rect:
         serializedVersion: 2
         x: 0
@@ -227,14 +730,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 264a6653f53896e469d55c10e77cd639
-      internalID: -583348747
+      spriteID: 4ef090acfb9a72a419d3265f251ddca6
+      internalID: -637243532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gris_anim_5
+      name: Gris_anim_25
       rect:
         serializedVersion: 2
         x: 0
@@ -249,14 +752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c590719a70ed5648b1d5c4a730a099f
-      internalID: 1528422374
+      spriteID: ee39748410df82c49b42f549f4a5f509
+      internalID: 1448587685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gris_anim_6
+      name: Gris_anim_26
       rect:
         serializedVersion: 2
         x: 0
@@ -271,14 +774,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3f69de8c9697274988f879286d553b4
-      internalID: 1827499200
+      spriteID: c9ef48bbfb30d484eb260e225c062525
+      internalID: 321428272
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gris_anim_7
+      name: Gris_anim_27
       rect:
         serializedVersion: 2
         x: 0
@@ -293,8 +796,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a4c00828c295fc4f96b99bfb91e57d2
-      internalID: 1352574064
+      spriteID: 92abbf13e59911544ade47c30a153043
+      internalID: 1356749135
       vertices: []
       indices: 
       edges: []
@@ -303,7 +806,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: acbb098b368035b4ca12625add39a166
+    spriteID: 56fa1616b72479f47ac0af72c524702c
     internalID: 0
     vertices: []
     indices: 
@@ -315,14 +818,34 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":240.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Gris_anim_0: -816109179
-      Gris_anim_1: -1868284837
-      Gris_anim_2: -1640246779
-      Gris_anim_3: 1426927356
-      Gris_anim_4: -583348747
-      Gris_anim_5: 1528422374
-      Gris_anim_6: 1827499200
-      Gris_anim_7: 1352574064
+      Gris_anim_0: -1951443471
+      Gris_anim_1: -1885847754
+      Gris_anim_10: -680687680
+      Gris_anim_11: 1630815203
+      Gris_anim_12: 958233106
+      Gris_anim_13: 975937482
+      Gris_anim_14: 1982730431
+      Gris_anim_15: 867188381
+      Gris_anim_16: 954930628
+      Gris_anim_17: 1082251425
+      Gris_anim_18: -678413148
+      Gris_anim_19: 2092318649
+      Gris_anim_2: -1692329207
+      Gris_anim_20: 1715115640
+      Gris_anim_21: 405732922
+      Gris_anim_22: 304274403
+      Gris_anim_23: 778706282
+      Gris_anim_24: -637243532
+      Gris_anim_25: 1448587685
+      Gris_anim_26: 321428272
+      Gris_anim_27: 1356749135
+      Gris_anim_3: 648376786
+      Gris_anim_4: 1278531984
+      Gris_anim_5: -748700407
+      Gris_anim_6: -954247855
+      Gris_anim_7: 1608878951
+      Gris_anim_8: -1179426430
+      Gris_anim_9: 468666326
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
