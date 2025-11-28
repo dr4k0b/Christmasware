@@ -286,19 +286,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   sounds:
+  - name: shoot
+    clip: {fileID: 0}
+    volume: 0.653
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
   - name: death
     clip: {fileID: 0}
     volume: 0
+    pitch: 0
     loop: 0
     source: {fileID: 0}
   - name: death
     clip: {fileID: 0}
     volume: 0
+    pitch: 0
     loop: 0
     source: {fileID: 0}
   - name: death
     clip: {fileID: 0}
     volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: death
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: death
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 0
     loop: 0
     source: {fileID: 0}
 --- !u!4 &577234582

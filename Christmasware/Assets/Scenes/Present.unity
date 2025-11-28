@@ -222,7 +222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 507c50af75bba6448abde8d647d35dfd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Present
-  startTime: 10
+  startTime: 5
   g: {fileID: 0}
   presentHealth: 5
 --- !u!1 &304871217

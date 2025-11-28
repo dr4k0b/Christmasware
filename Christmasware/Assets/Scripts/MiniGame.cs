@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public abstract class MiniGame : MonoBehaviour
 {
-    public float startTime;
+    public float startTime = 5;
     private float time;
 
     [HideInInspector]
