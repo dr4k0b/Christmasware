@@ -9,14 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Start.unity
     guid: 83f33d47d9382a44589141ba35e8b191
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Death.unity
+    guid: 88439fe9e841ab449b5611b5b3a3507a
   - enabled: 1
     path: Assets/Scenes/Intermission.unity
     guid: 2d7f1886c261be34daa01fd591e39de8
   - enabled: 1
     path: Assets/Scenes/Present.unity
     guid: bf06cc979c117bf4c9191b126aff9a16
+  - enabled: 1
+    path: Assets/Scenes/Clementine.unity
+    guid: a86beaa612326b64ebd5b1c8279c0bf6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

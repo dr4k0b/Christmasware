@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,18 +8,13 @@ public class IntermissionLogic : MonoBehaviour
     void Start()
     {
         g = FindAnyObjectByType<GlobalInformation>();
-
-        if (g.result == GlobalInformation.Result.win)
+        g.round++;
+        if (g.round % 5 == 0)
         {
-            g.score++;
+            g.Difficulty++;
         }
-        if (g.result == GlobalInformation.Result.lose)
-        {
-            g.health--;
-        }
-        g.result = GlobalInformation.Result.game;
 
-
+        StartCoroutine(NextScene());
         // start new minigame
     }
 
@@ -28,5 +24,13 @@ public class IntermissionLogic : MonoBehaviour
         {
             SceneManager.LoadScene("Present");
         }
+    }
+
+    IEnumerator NextScene()
+    {
+        yield return new WaitForSeconds(1);
+        g.result = GlobalInformation.Result.game;
+        SceneManager.LoadScene(Random.Range(3, SceneManager.sceneCountInBuildSettings));
+
     }
 }

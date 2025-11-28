@@ -127,221 +127,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New Piskel (1)_0
+      name: Clementin_anim_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 285
-        width: 99
-        height: 89
+        width: 100
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9249ede64883660a0800000000000000
-      internalID: -6888756438569675735
+      spriteID: 42b73629cea6ba046971be3b971df68c
+      internalID: -102459249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_1
+      name: Clementin_anim_1
       rect:
         serializedVersion: 2
-        x: 101
+        x: 100
         y: 285
-        width: 99
-        height: 89
+        width: 100
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 29beed572c6005f70800000000000000
-      internalID: 9173839873224666002
+      spriteID: 510e5f6598770fd41be045870adc48af
+      internalID: 1748449237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_2
+      name: Clementin_anim_2
       rect:
         serializedVersion: 2
-        x: 199
-        y: 284
-        width: 101
-        height: 90
+        x: 200
+        y: 285
+        width: 100
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f5792496b0fe6a5f0800000000000000
-      internalID: -745645855993587873
+      spriteID: 3574346881f4a3b489490684ae3caaa0
+      internalID: -2086575147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_3
+      name: Clementin_anim_3
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 190
-        width: 96
-        height: 89
+        width: 100
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7e85a3ae9027a3930800000000000000
-      internalID: 4123733795721074919
+      spriteID: 741f324344f0ac741ba912eb50f06e41
+      internalID: -1494894465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_4
+      name: Clementin_anim_4
       rect:
         serializedVersion: 2
-        x: 104
+        x: 100
         y: 190
-        width: 96
-        height: 88
+        width: 100
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f26daafeaae7aa7e0800000000000000
-      internalID: -1753449832276896209
+      spriteID: 2ac4c25f19108304b8cc1f9d366df9bd
+      internalID: -555123913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_5
+      name: Clementin_anim_5
       rect:
         serializedVersion: 2
-        x: 204
-        y: 189
-        width: 96
-        height: 89
+        x: 200
+        y: 190
+        width: 100
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 12c2db6614f204c20800000000000000
-      internalID: 3188600494121364513
+      spriteID: 5795aec46c97681418492894c8e5274b
+      internalID: 258723406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_6
+      name: Clementin_anim_6
       rect:
         serializedVersion: 2
-        x: 4
-        y: 97
-        width: 96
-        height: 86
+        x: 0
+        y: 95
+        width: 100
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fb1ad923dc1c57500800000000000000
-      internalID: 393433629526434239
+      spriteID: a6ea59ef0ac450140904c5c309e8df51
+      internalID: -95970734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_7
+      name: Clementin_anim_7
       rect:
         serializedVersion: 2
-        x: 104
-        y: 97
-        width: 96
-        height: 83
+        x: 100
+        y: 95
+        width: 100
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: feffaec26aa3bde90800000000000000
-      internalID: -6999936710424723473
+      spriteID: 25411c7dea99d594d946ad5b1b0d9327
+      internalID: 1538302244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_8
+      name: Clementin_anim_8
       rect:
         serializedVersion: 2
-        x: 204
-        y: 97
-        width: 94
-        height: 83
+        x: 200
+        y: 95
+        width: 100
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e4899cf55844f6250800000000000000
-      internalID: 5940041773153359950
+      spriteID: e7d3a08e6a184864d831863b52db7c05
+      internalID: -989755060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Piskel (1)_9
+      name: Clementin_anim_9
       rect:
         serializedVersion: 2
-        x: 4
-        y: 3
-        width: 93
-        height: 82
+        x: 0
+        y: 0
+        width: 100
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: fc174afdc361d2860800000000000000
-      internalID: 7506680604602429903
+      spriteID: 3b76c5018b93b8541926f86e81c044d2
+      internalID: 1113534418
       vertices: []
       indices: 
       edges: []
@@ -350,7 +350,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6c983cf3bb775cc438c8d0fd10469083
     internalID: 0
     vertices: []
     indices: 
@@ -358,18 +358,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":95.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      New Piskel (1)_0: -6888756438569675735
-      New Piskel (1)_1: 9173839873224666002
-      New Piskel (1)_2: -745645855993587873
-      New Piskel (1)_3: 4123733795721074919
-      New Piskel (1)_4: -1753449832276896209
-      New Piskel (1)_5: 3188600494121364513
-      New Piskel (1)_6: 393433629526434239
-      New Piskel (1)_7: -6999936710424723473
-      New Piskel (1)_8: 5940041773153359950
-      New Piskel (1)_9: 7506680604602429903
+      Clementin_anim_0: -102459249
+      Clementin_anim_1: 1748449237
+      Clementin_anim_2: -2086575147
+      Clementin_anim_3: -1494894465
+      Clementin_anim_4: -555123913
+      Clementin_anim_5: 258723406
+      Clementin_anim_6: -95970734
+      Clementin_anim_7: 1538302244
+      Clementin_anim_8: -989755060
+      Clementin_anim_9: 1113534418
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

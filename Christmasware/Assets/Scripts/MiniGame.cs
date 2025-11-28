@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public abstract class MiniGame : MonoBehaviour
 {
-    public float startTime;
+    public float startTime = 5;
     private float time;
 
     [HideInInspector]
@@ -13,11 +13,12 @@ public abstract class MiniGame : MonoBehaviour
         g = FindAnyObjectByType<GlobalInformation>();
         time = startTime;
     }
-    private void Update()
+
+    public void Timer()
     {
         if (time > 0)
         {
-            time -= Time.deltaTime;
+            time -= Time.deltaTime * (1 + (g.Difficulty / 10));
             Debug.Log(time);
         }
         else
@@ -29,11 +30,13 @@ public abstract class MiniGame : MonoBehaviour
     public void Win()
     {
         g.result = GlobalInformation.Result.win;
+        g.score++;
         SceneManager.LoadScene("Intermission");
     }
     public void Lose()
     {
         g.result = GlobalInformation.Result.lose;
-        SceneManager.LoadScene("Intermission");
+        g.health--;
+        SceneManager.LoadScene((g.health <= 0) ? "Death" : "Intermission");
     }
 }
