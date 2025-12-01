@@ -28,7 +28,7 @@ public class IntermissionLogic : MonoBehaviour
         {
             g.Difficulty++;
         }
-        
+
         StartCoroutine(NextScene());
         // start new minigame
     }
@@ -50,16 +50,21 @@ public class IntermissionLogic : MonoBehaviour
             ani.SetBool("Win", false);
             ani.SetBool("Game", false);
         }
-        if (Input.GetKey(KeyCode.D))
-        {
-            SceneManager.LoadScene("Present");
-        }
     }
 
     IEnumerator NextScene()
     {
         yield return new WaitForSeconds(1);
-        g.result = GlobalInformation.Result.game;
-        SceneManager.LoadScene(Random.Range(3, SceneManager.sceneCountInBuildSettings));
+
+        g = FindAnyObjectByType<GlobalInformation>();
+        if (g.health <= 0)
+        {
+            SceneManager.LoadScene("Death");
+        }
+        else
+        {
+            g.result = GlobalInformation.Result.game;
+            SceneManager.LoadScene(Random.Range(3, SceneManager.sceneCountInBuildSettings));
+        }
     }
 }
