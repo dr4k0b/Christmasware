@@ -7,16 +7,16 @@ public class Clementine : MiniGame
     public Animator aniKey;
     int clementine;
     int key;
+    public bool done;
     void Start()
     {
         aniClementine = GetComponent<Animator>();
         clementine = 0;
-        key = Random.Range(1, 5);
+        key = Random.Range(1, 6);
     }
     void Update()
     {
         KeyCode keyToPress = KeyCode.Return;
-        Timer();
         aniKey.SetInteger("key", key);
         if (key == 1)
         {
@@ -42,16 +42,25 @@ public class Clementine : MiniGame
         {
             clementine++;
             aniClementine.SetInteger("Peel", clementine);
-            key = Random.Range(1, 5);
+
+            int prev = key;
+            do
+            {
+                key = Random.Range(1, 6);
+            }
+            while (prev == key);
         }
         if (clementine == 3)
         {
-            StartCoroutine(WinDelay());
+            aniKey.gameObject.SetActive(false);
         }
-    }
-    IEnumerator WinDelay()
-    {
-        yield return new WaitForSeconds(0.25f);
-        Win();
+        else
+        {
+            Timer();
+        }
+        if (done)
+        {
+            Win();
+        }
     }
 }

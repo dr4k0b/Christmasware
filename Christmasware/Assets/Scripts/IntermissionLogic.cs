@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,6 +7,7 @@ public class IntermissionLogic : MonoBehaviour
 {
     GlobalInformation g;
     public Animator ani;
+    public TextMeshProUGUI text;
     void Start()
     {
         g = FindAnyObjectByType<GlobalInformation>();
@@ -22,7 +24,7 @@ public class IntermissionLogic : MonoBehaviour
             ani.SetBool("Win", true);
         }
         g.round++;
-        if (g.round % 5 == 0)
+        if (g.round % 1 == 0)
         {
             g.Difficulty++;
         }
@@ -33,6 +35,7 @@ public class IntermissionLogic : MonoBehaviour
 
     private void Update()
     {
+        text.SetText("Score " + g.score.ToString());
         if (g.result == GlobalInformation.Result.start)
         {
             ani.SetBool("Game", true);
@@ -58,6 +61,5 @@ public class IntermissionLogic : MonoBehaviour
         yield return new WaitForSeconds(1);
         g.result = GlobalInformation.Result.game;
         SceneManager.LoadScene(Random.Range(3, SceneManager.sceneCountInBuildSettings));
-
     }
 }

@@ -18,8 +18,8 @@ public abstract class MiniGame : MonoBehaviour
     {
         if (time > 0)
         {
-            time -= Time.deltaTime * (1 + (g.Difficulty / 10));
-            Debug.Log(time);
+            time -= Time.deltaTime * (1 + ((float)g.Difficulty / 10));
+            Debug.Log("speed: " +(1 + ((float)g.Difficulty / 10)));
         }
         else
         {
