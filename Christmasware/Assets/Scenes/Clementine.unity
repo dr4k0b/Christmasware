@@ -590,6 +590,7 @@ MonoBehaviour:
   startTime: 5
   g: {fileID: 0}
   aniKey: {fileID: 1334484518}
+  done: 0
 --- !u!212 &1563943283
 SpriteRenderer:
   m_ObjectHideFlags: 0

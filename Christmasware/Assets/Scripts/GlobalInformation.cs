@@ -6,21 +6,19 @@ public class GlobalInformation : MonoBehaviour
     public Result result;
     public int health;
     public int score;
+    public int highScore;
     public int round;
     public int Difficulty;
+    public Animator pig;
 
     public static GlobalInformation Instance;
     void Awake()
     {
         DontDestroyOnLoad(gameObject);
-
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
     }
+    private void Update()
+    {
+        pig.SetFloat("Speed", 1 + (((float)Difficulty) / 10f));
+    }
+
 }

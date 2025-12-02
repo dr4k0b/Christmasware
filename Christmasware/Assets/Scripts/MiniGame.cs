@@ -18,8 +18,7 @@ public abstract class MiniGame : MonoBehaviour
     {
         if (time > 0)
         {
-            time -= Time.deltaTime * (1 + (g.Difficulty / 10));
-            Debug.Log(time);
+            time -= Time.deltaTime * (1 + ((float)g.Difficulty / 10));
         }
         else
         {
@@ -37,6 +36,6 @@ public abstract class MiniGame : MonoBehaviour
     {
         g.result = GlobalInformation.Result.lose;
         g.health--;
-        SceneManager.LoadScene((g.health <= 0) ? "Death" : "Intermission");
+        SceneManager.LoadScene("Intermission");
     }
 }
