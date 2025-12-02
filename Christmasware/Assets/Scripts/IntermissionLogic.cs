@@ -49,7 +49,7 @@ public class IntermissionLogic : MonoBehaviour
 
     IEnumerator NextScene()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
 
         g = FindAnyObjectByType<GlobalInformation>();
         if (g.health <= 0)
