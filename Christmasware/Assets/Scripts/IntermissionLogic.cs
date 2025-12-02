@@ -7,22 +7,12 @@ public class IntermissionLogic : MonoBehaviour
 {
     GlobalInformation g;
     public Animator ani;
+    public Animator rullband;
     public TextMeshProUGUI text;
     void Start()
     {
         g = FindAnyObjectByType<GlobalInformation>();
-        if (g.round == 0)
-        {
-            ani.SetBool("Game", false);
-        }
-        else if (g.result == GlobalInformation.Result.win)
-        {
-            ani.SetBool("Win", true);
-        }
-        else if (g.result == GlobalInformation.Result.lose)
-        {
-            ani.SetBool("Win", true);
-        }
+
         g.round++;
         if (g.round % 1 == 0)
         {
@@ -39,16 +29,21 @@ public class IntermissionLogic : MonoBehaviour
         if (g.result == GlobalInformation.Result.start)
         {
             ani.SetBool("Game", true);
+            rullband.SetBool("Start", true);
         }
         else if (g.result == GlobalInformation.Result.win)
         {
             ani.SetBool("Win", true);
+            rullband.SetBool("Win", true);
             ani.SetBool("Game", false);
+            rullband.SetBool("Start", false);
         }
         else if (g.result == GlobalInformation.Result.lose)
         {
             ani.SetBool("Win", false);
+            rullband.SetBool("Win", false);
             ani.SetBool("Game", false);
+            rullband.SetBool("Start", false);
         }
     }
 

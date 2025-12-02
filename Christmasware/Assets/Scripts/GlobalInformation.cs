@@ -6,6 +6,7 @@ public class GlobalInformation : MonoBehaviour
     public Result result;
     public int health;
     public int score;
+    public int highScore;
     public int round;
     public int Difficulty;
     public Animator pig;
