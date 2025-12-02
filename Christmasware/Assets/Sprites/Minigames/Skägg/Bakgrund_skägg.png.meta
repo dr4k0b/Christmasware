@@ -1,31 +1,10 @@
 fileFormatVersion: 2
-guid: 3a3792817a541ef458485f534def41a5
+guid: 1e831437b52193845825ff3e5dd1cbd0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7588594121853779149
-    second: nisse (1)_0
-  - first:
-      213: -2622280809371277657
-    second: nisse (1)_1
-  - first:
-      213: -6127938621940157595
-    second: nisse (1)_2
-  - first:
-      213: 8026033867071078639
-    second: nisse (1)_3
-  - first:
-      213: -6335343269310248821
-    second: nisse (1)_4
-  - first:
-      213: 444962281414225896
-    second: nisse (1)_5
-  - first:
-      213: 3725705698870281220
-    second: nisse (1)_6
-  - first:
-      213: -4651720108738108705
-    second: nisse (1)_7
+      213: 5900336341058161412
+    second: Ram_minigame (3)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,51 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Nisse_idle_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 160
-        width: 240
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 032f151d8fd4c434c96e6707fa63dbaf
-      internalID: -1610938805
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nisse_idle_1
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 160
-        width: 240
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1db607aed008474fb2f9b9f623f7b65
-      internalID: 189710802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nisse_idle_2
+      name: Ram_minigame (3)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -173,37 +108,15 @@ TextureImporter:
         width: 240
         height: 160
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: afcb096f0bde62a4988acedba127bda8
-      internalID: -2002041107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Nisse_idle_3
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 240
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a638fa9d3269295469576aa2f70a547a
-      internalID: -2137000608
+      spriteID: 40b891014a432e150800000000000000
+      internalID: 5900336341058161412
       vertices: []
       indices: 
       edges: []
@@ -212,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: af6390363f73c3544be9883baa002a8c
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -220,14 +133,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":240.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Nisse_idle_0: -1610938805
-      Nisse_idle_1: 189710802
-      Nisse_idle_2: -2002041107
-      Nisse_idle_3: -2137000608
+      Ram_minigame (3)_0: 5900336341058161412
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
