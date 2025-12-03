@@ -1,4 +1,6 @@
+using NUnit.Framework;
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -20,11 +22,17 @@ public class IntermissionLogic : MonoBehaviour
         }
 
         StartCoroutine(NextScene());
-        // start new minigame
     }
 
     private void Update()
     {
+        if (g.gamesLeft.Count == 0)
+        {
+            for (int i = 3; i < SceneManager.sceneCountInBuildSettings; i++)
+            {
+                g.gamesLeft.Add(i);
+            }
+        }
         text.SetText("Score " + g.score.ToString());
         if (g.result == GlobalInformation.Result.start)
         {
@@ -59,7 +67,9 @@ public class IntermissionLogic : MonoBehaviour
         else
         {
             g.result = GlobalInformation.Result.game;
-            SceneManager.LoadScene(Random.Range(3, SceneManager.sceneCountInBuildSettings));
+            int nextGame = Random.Range(0, g.gamesLeft.Count);
+            SceneManager.LoadScene(g.gamesLeft[nextGame]);
+            g.gamesLeft.RemoveAt(nextGame);
         }
     }
 }
