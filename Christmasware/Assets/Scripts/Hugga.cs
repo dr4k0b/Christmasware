@@ -12,13 +12,21 @@ public class Hugga : MiniGame
     void Update()
     {
         highlight.SetBool("Highlight", canHit);
-        if (canHit && Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyUp(KeyCode.Space))
         {
-            hugga.SetBool("win", true);
-            GetComponent<Renderer>().enabled = false;
-            StartCoroutine(WinDelay(1.5f));
+            if (canHit)
+            {
+                hugga.SetBool("win", true);
+                g.GetComponent<AudioManager>().Play("Hugga");
+                GetComponent<Renderer>().enabled = false;
+                StartCoroutine(WinDelay(1.5f));
+            }
+            else
+            {
+                g.GetComponent<AudioManager>().Play("Fail");
+            }
+            Timer();
         }
-        Timer();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {

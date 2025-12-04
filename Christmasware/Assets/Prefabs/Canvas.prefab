@@ -195,6 +195,7 @@ MonoBehaviour:
   - {fileID: 805534160601771178}
   - {fileID: 8057399106051543310}
   explosion: {fileID: 0}
+  ani: {fileID: 5702443777445820764}
 --- !u!1 &8057399106051543310
 GameObject:
   m_ObjectHideFlags: 0

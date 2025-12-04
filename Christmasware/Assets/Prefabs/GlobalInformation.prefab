@@ -70,12 +70,65 @@ MonoBehaviour:
   - name: Main
     clip: {fileID: 8300000, guid: 77e55142bea65f94ca5c6b90d686b610, type: 3}
     volume: 1
-    pitch: 0
     loop: 1
     source: {fileID: 0}
-  - name: 
-    clip: {fileID: 0}
-    volume: 0
-    pitch: 0
+  - name: Rullband
+    clip: {fileID: 8300000, guid: 0d24ec117cdc00c41869c157ad9773d8, type: 3}
+    volume: 1
     loop: 0
+    source: {fileID: 0}
+  - name: Happy
+    clip: {fileID: 8300000, guid: 9d85c4171562a86409bd35b99d2974da, type: 3}
+    volume: 0.25
+    loop: 0
+    source: {fileID: 0}
+  - name: Sad
+    clip: {fileID: 8300000, guid: eecbdc4c45d12dd439c1701b86ea10b5, type: 3}
+    volume: 0.25
+    loop: 0
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: 92592d794f386394abbc84634f0804b4, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Lose
+    clip: {fileID: 8300000, guid: 2951fe1c27eb3224ba05069cf4a04240, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 4c64c8aef94785c4fab5052f3d944a74, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Beep
+    clip: {fileID: 8300000, guid: b803b1218e4494143bd9d0ea6f8fec74, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Skotta
+    clip: {fileID: 8300000, guid: 77adf48c27ed60848b52a882877c6f15, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Hugga
+    clip: {fileID: 8300000, guid: 70a867c6b2c3d94429257d6978848601, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Open
+    clip: {fileID: 8300000, guid: d7b4044670d49024ca0abddcd3bdea39, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Cry
+    clip: {fileID: 8300000, guid: 1a764b16bb122514f94b7a67f56bb567, type: 3}
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Fail
+    clip: {fileID: 8300000, guid: a1a0000c6b24b92448f78c586adaaf06, type: 3}
+    volume: 1
+    loop: 1
     source: {fileID: 0}

@@ -245,8 +245,8 @@ Camera:
   m_GameObject: {fileID: 1979787471}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -357,6 +357,7 @@ GameObject:
   - component: {fileID: 2096395934}
   - component: {fileID: 2096395933}
   - component: {fileID: 2096395932}
+  - component: {fileID: 2096395935}
   m_Layer: 0
   m_Name: "Gr\xF6t"
   m_TagString: Untagged
@@ -459,6 +460,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2096395935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2096395931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874f0a6e1456d7b40ad86e1258fa41c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  time: 0
+  g: {fileID: 0}
+  knapp: {fileID: 1706106851}
+  buttons:
+  - {fileID: -1588375407057728545, guid: 18f876f31e4d48a44aa943d470041fc5, type: 3}
+  - {fileID: -9156803764356913878, guid: 18f876f31e4d48a44aa943d470041fc5, type: 3}
+  - {fileID: 237940800148632817, guid: 18f876f31e4d48a44aa943d470041fc5, type: 3}
+  - {fileID: 720133462784093003, guid: 18f876f31e4d48a44aa943d470041fc5, type: 3}
+  spins: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

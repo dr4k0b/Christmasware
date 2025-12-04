@@ -40,18 +40,22 @@ public class Skotta : MiniGame
         if (Input.GetKeyUp(KeyCode.W) && transform.position.y < 2.19f)
         {
             transform.position += Vector3.up;
+            g.GetComponent<AudioManager>().Play("Beep");
         }
         if (Input.GetKeyUp(KeyCode.A) && transform.position.x > -1.56f)
         {
             transform.position += Vector3.left;
+            g.GetComponent<AudioManager>().Play("Beep");
         }
         if (Input.GetKeyUp(KeyCode.S) && transform.position.y > -0.19f)
         {
             transform.position += Vector3.down;
+            g.GetComponent<AudioManager>().Play("Beep");
         }
         if (Input.GetKeyUp(KeyCode.D) && transform.position.x < 1.44f)
         {
             transform.position += Vector3.right;
+            g.GetComponent<AudioManager>().Play("Beep");
         }
         if (snows <= 0)
         {
@@ -65,6 +69,7 @@ public class Skotta : MiniGame
         if (collision.tag == "snow")
         {
             snows--;
+            g.GetComponent<AudioManager>().Play("Skotta");
             Destroy(collision.gameObject);
         }
     }

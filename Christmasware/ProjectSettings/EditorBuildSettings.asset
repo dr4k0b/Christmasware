@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hugga.unity
     guid: 6378a586fa419764194156affad210fc
+  - enabled: 1
+    path: Assets/Scenes/Spin.unity
+    guid: 55d17930232d0a7499ec872573ba7dd7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

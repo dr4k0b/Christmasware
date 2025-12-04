@@ -6,6 +6,9 @@ public class MiniGameHUD : MonoBehaviour
     public GameObject[] miniGameHUDElements;
     public GameObject explosion;
     GlobalInformation g;
+    public Animator ani;
+
+
     public static MiniGameHUD Instance;
     void Awake()
     {
@@ -23,6 +26,7 @@ public class MiniGameHUD : MonoBehaviour
     }
     void Update()
     {
+        ani.SetBool("Start", g.result != GlobalInformation.Result.game);
         foreach (GameObject obj in miniGameHUDElements)
         {
             obj.SetActive(g.result == GlobalInformation.Result.game);

@@ -14,13 +14,27 @@ public class IntermissionLogic : MonoBehaviour
     void Start()
     {
         g = FindAnyObjectByType<GlobalInformation>();
-
+        g.GetComponent<AudioManager>().Play("Rullband");
         g.round++;
-        if (g.round % 4 == 0)
+        if (g.round % 5 == 0)
         {
             g.Difficulty += 3;
         }
+        if (g.result == GlobalInformation.Result.start)
+        {
 
+        }
+        else if (g.result == GlobalInformation.Result.win || g.result == GlobalInformation.Result.game)
+        {
+            g.GetComponent<AudioManager>().Play("Happy");
+
+        }
+        else if (g.result == GlobalInformation.Result.lose)
+        {
+            g.GetComponent<AudioManager>().Play("Sad");
+          //  g.GetComponent<AudioManager>().Play("Lose");
+
+        }
         StartCoroutine(NextScene());
     }
 
@@ -39,7 +53,7 @@ public class IntermissionLogic : MonoBehaviour
             ani.SetBool("Game", true);
             rullband.SetBool("Start", true);
         }
-        else if (g.result == GlobalInformation.Result.win)
+        else if (g.result == GlobalInformation.Result.win || g.result == GlobalInformation.Result.game)
         {
             ani.SetBool("Win", true);
             rullband.SetBool("Win", true);
@@ -52,6 +66,12 @@ public class IntermissionLogic : MonoBehaviour
             rullband.SetBool("Win", false);
             ani.SetBool("Game", false);
             rullband.SetBool("Start", false);
+        }
+
+        if (g.result == GlobalInformation.Result.game)
+        {
+            g.score++;
+            g.result = GlobalInformation.Result.win;
         }
     }
 
@@ -66,6 +86,7 @@ public class IntermissionLogic : MonoBehaviour
         }
         else
         {
+            g.GetComponent<AudioManager>().Stop("Rullband");
             g.result = GlobalInformation.Result.game;
             int nextGame = Random.Range(0, g.gamesLeft.Count);
             SceneManager.LoadScene(g.gamesLeft[nextGame]);

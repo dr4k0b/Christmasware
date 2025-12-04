@@ -17,6 +17,10 @@ public class CountScore : MonoBehaviour
         text = GetComponent<TextMeshProUGUI>();
         g = FindAnyObjectByType<GlobalInformation>();
         StartCoroutine(count());
+
+        g.GetComponent<AudioManager>().Play("GameOver");
+        g.GetComponent<AudioManager>().Stop("Main");
+        g.GetComponent<AudioManager>().Stop("Rullband");
     }
     void Update()
     {
@@ -53,6 +57,7 @@ public class CountScore : MonoBehaviour
         g.score = 0;
         g.round = 0;
         g.Difficulty = 0;
+        g.GetComponent<AudioManager>().Play("Main");
         SceneManager.LoadScene("Intermission");
     }
 }

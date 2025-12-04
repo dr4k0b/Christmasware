@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public abstract class MiniGame : MonoBehaviour
 {
     private bool win;
-
+    bool hasWon;
     [HideInInspector]
     public float time;
 
@@ -13,9 +13,10 @@ public abstract class MiniGame : MonoBehaviour
     public GlobalInformation g;
     private void Awake()
     {
+        hasWon = false;
         win = false;
         g = FindAnyObjectByType<GlobalInformation>();
-        time = g.startTime;
+        time = 7;
     }
 
     public void Timer()
@@ -33,6 +34,7 @@ public abstract class MiniGame : MonoBehaviour
             time = 0;
             Lose();
         }
+        Debug.Log(time);
     }
     public void Win()
     {
@@ -48,6 +50,11 @@ public abstract class MiniGame : MonoBehaviour
     }
     public IEnumerator WinDelay(float delay)
     {
+        if (hasWon)
+            yield break;
+
+        g.GetComponent<AudioManager>().Play("Win");
+        hasWon = true;
         win = true;
         yield return new WaitForSeconds(delay);
         Win();

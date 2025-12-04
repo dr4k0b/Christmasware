@@ -19,6 +19,15 @@ public class GlobalInformation : MonoBehaviour
     void Awake()
     {
         DontDestroyOnLoad(gameObject);
+
+        if(Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
     private void Update()
     {
