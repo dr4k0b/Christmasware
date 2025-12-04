@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 61f376b7b438aea49889ab2b1324054c
+guid: adfb0e628ec1def4fb74006daffcce77
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2229002023863270546
-    second: Gris_anim 1_0
+      213: 4035387877771155929
+    second: Gris_anim (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Explosion_gris_0
+      name: Gris_anim (1)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,16 +113,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4f109c99bfc227144a031741c7ad9dca
-      internalID: 630373431
+      spriteID: 9d99779f4e3900830800000000000000
+      internalID: 4035387877771155929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Explosion_gris_1
+      name: Gris_anim (1)_1
       rect:
         serializedVersion: 2
         x: 0
@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efaca3813d314de4a94eb9122dff5c94
-      internalID: -375447299
+      spriteID: 5be2b4653ee98a9499034535868d01e7
+      internalID: -295800577
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 267ea6814ebb4564691491747fbff65e
+    spriteID: cd2621003d8743c4283984ab4fdf7838
     internalID: 0
     vertices: []
     indices: 
@@ -159,8 +159,8 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":240.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Explosion_gris_0: 630373431
-      Explosion_gris_1: -375447299
+      Gris_anim (1)_0: 4035387877771155929
+      Gris_anim (1)_1: -295800577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
