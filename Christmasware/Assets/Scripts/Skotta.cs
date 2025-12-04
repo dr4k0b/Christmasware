@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Skotta : MiniGame
@@ -5,6 +6,7 @@ public class Skotta : MiniGame
     public GameObject snow;
     public int[,] positions = { { 0, 0, 0, 0 }, { 0, 0, 0, 0 }, { 0, 0, 0, 0 }, { 0, 0, 0, 0 } };
     public int snows;
+    public GameObject winScreen;
     void Start()
     {
         snows = 5;
@@ -53,9 +55,13 @@ public class Skotta : MiniGame
         }
         if (snows <= 0)
         {
-            Win();
+            winScreen.gameObject.SetActive(true);
+            StartCoroutine(WinDelay());
         }
-        Timer();
+        else
+        {
+            Timer();
+        }
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -64,5 +70,10 @@ public class Skotta : MiniGame
             snows--;
             Destroy(collision.gameObject);
         }
+    }
+    IEnumerator WinDelay()
+    {
+        yield return new WaitForSeconds(1);
+        Win();
     }
 }

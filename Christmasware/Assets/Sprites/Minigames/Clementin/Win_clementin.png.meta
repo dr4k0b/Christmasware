@@ -103,12 +103,12 @@ TextureImporter:
       name: New Piskel (11)_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 3
-        width: 93
-        height: 82
+        x: 0
+        y: 0
+        width: 100
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a15599ee655fa9b43939bc79f88c6f84
     internalID: 0
     vertices: []
     indices: 
