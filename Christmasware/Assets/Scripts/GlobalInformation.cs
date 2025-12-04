@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GlobalInformation : MonoBehaviour
@@ -10,6 +11,8 @@ public class GlobalInformation : MonoBehaviour
     public int round;
     public int Difficulty;
     public Animator pig;
+
+    public List<int> gamesLeft = new List<int>();
 
     public static GlobalInformation Instance;
     void Awake()

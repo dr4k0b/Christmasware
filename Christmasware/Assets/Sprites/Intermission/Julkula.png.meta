@@ -103,45 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Health_Bar-Sheet_0
+      name: Julkula_0
       rect:
         serializedVersion: 2
-        x: 100
-        y: 58
-        width: 33
-        height: 47
+        x: 0
+        y: 0
+        width: 240
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f9232adeacf345190800000000000000
-      internalID: -7974678899363532129
+      spriteID: a835a26fd3e367948a8ee70353f34805
+      internalID: 450152170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Health_Bar-Sheet_1
+      name: Julkula_1
       rect:
         serializedVersion: 2
-        x: 340
-        y: 58
-        width: 33
-        height: 47
+        x: 240
+        y: 0
+        width: 240
+        height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6e7b7f4e16497f8d0800000000000000
-      internalID: -2812616294095407130
+      spriteID: 32f9cd80ee509174282651af06a737ea
+      internalID: 1801883723
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 257f0313da182e846b8ee0935bf6fe76
     internalID: 0
     vertices: []
     indices: 
@@ -158,10 +158,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":240.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Health_Bar-Sheet_0: -7974678899363532129
-      Health_Bar-Sheet_1: -2812616294095407130
+      Julkula_0: 450152170
+      Julkula_1: 1801883723
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
