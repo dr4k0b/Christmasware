@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 3a3792817a541ef458485f534def41a5
+guid: 614086efc33e2534c8e48e5f22bca87b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7588594121853779149
-    second: nisse (1)_0
+      213: -5647521890427301606
+    second: Ram_minigame (5) (1)_0
   - first:
-      213: -2622280809371277657
-    second: nisse (1)_1
+      213: -6318464021967158442
+    second: Ram_minigame (5) (1)_1
   - first:
-      213: -6127938621940157595
-    second: nisse (1)_2
+      213: -2838959885122255724
+    second: Ram_minigame (5) (1)_2
   - first:
-      213: 8026033867071078639
-    second: nisse (1)_3
+      213: -1950402043788210093
+    second: Ram_minigame (5) (1)_3
   - first:
-      213: -6335343269310248821
-    second: nisse (1)_4
+      213: -8289735970337305349
+    second: Ram_minigame (5) (1)_4
   - first:
-      213: 444962281414225896
-    second: nisse (1)_5
+      213: 5998552085825243249
+    second: Ram_minigame (5) (1)_5
   - first:
-      213: 3725705698870281220
-    second: nisse (1)_6
+      213: -3871679255914833337
+    second: Ram_minigame (5) (1)_6
   - first:
-      213: -4651720108738108705
-    second: nisse (1)_7
+      213: -538023474577712982
+    second: Ram_minigame (5) (1)_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,7 +125,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
+        y: 480
         width: 240
         height: 160
       alignment: 0
@@ -136,8 +136,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 032f151d8fd4c434c96e6707fa63dbaf
-      internalID: -1610938805
+      spriteID: 3fcd53560cd5fdc42acd67668ef69b14
+      internalID: 1958280733
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 160
+        y: 480
         width: 240
         height: 160
       alignment: 0
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1db607aed008474fb2f9b9f623f7b65
-      internalID: 189710802
+      spriteID: e47f64c0d4a969241ac21825d32429f5
+      internalID: 294031867
       vertices: []
       indices: 
       edges: []
@@ -169,7 +169,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 320
         width: 240
         height: 160
       alignment: 0
@@ -180,8 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afcb096f0bde62a4988acedba127bda8
-      internalID: -2002041107
+      spriteID: 33b30a346c527ac43b3247df8b427a8b
+      internalID: -657557138
       vertices: []
       indices: 
       edges: []
@@ -191,7 +191,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 0
+        y: 320
         width: 240
         height: 160
       alignment: 0
@@ -202,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a638fa9d3269295469576aa2f70a547a
-      internalID: -2137000608
+      spriteID: a9a9ec5d87fb6994bb43041df6a8e682
+      internalID: 1577391786
       vertices: []
       indices: 
       edges: []
@@ -212,7 +212,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: af6390363f73c3544be9883baa002a8c
+    spriteID: 6df92a3fcdcc55a4f8a19553a50b9134
     internalID: 0
     vertices: []
     indices: 
@@ -224,10 +224,10 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":240.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Nisse_idle_0: -1610938805
-      Nisse_idle_1: 189710802
-      Nisse_idle_2: -2002041107
-      Nisse_idle_3: -2137000608
+      Nisse_idle_0: 1958280733
+      Nisse_idle_1: 294031867
+      Nisse_idle_2: -657557138
+      Nisse_idle_3: 1577391786
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
