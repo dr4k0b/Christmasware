@@ -12,6 +12,7 @@ public class StartGame : MonoBehaviour
     }
     public void startGame()
     {
+        FindAnyObjectByType<GlobalInformation>().gameObject.GetComponent<AudioManager>().Play("Main");
         SceneManager.LoadScene("Intermission");
     }
 }

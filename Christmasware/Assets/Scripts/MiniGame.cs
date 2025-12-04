@@ -4,7 +4,8 @@ using UnityEngine.SceneManagement;
 public abstract class MiniGame : MonoBehaviour
 {
     public float startTime = 5;
-    private float time;
+    [HideInInspector]
+    public float time;
 
     [HideInInspector]
     public GlobalInformation g;
