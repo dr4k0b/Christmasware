@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3139131133543261015}
   - component: {fileID: 3449255802353212557}
+  - component: {fileID: 2318946797563631248}
   m_Layer: 0
   m_Name: GlobalInformation
   m_TagString: Untagged
@@ -47,6 +48,33 @@ MonoBehaviour:
   result: 0
   health: 3
   score: 0
+  highScore: 0
   round: 0
   Difficulty: 0
   pig: {fileID: 0}
+  gamesLeft: 
+--- !u!114 &2318946797563631248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4766909570635628200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551049af5d791e64da8ed55131717b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  sounds:
+  - name: Main
+    clip: {fileID: 8300000, guid: e3e50ffc53b143243bbaaf7861361e07, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: 
+    clip: {fileID: 0}
+    volume: 0
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
