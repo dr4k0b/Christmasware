@@ -56,12 +56,9 @@ public class Skotta : MiniGame
         if (snows <= 0)
         {
             winScreen.gameObject.SetActive(true);
-            StartCoroutine(WinDelay());
+            StartCoroutine(WinDelay(1));
         }
-        else
-        {
-            Timer();
-        }
+        Timer();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -70,10 +67,5 @@ public class Skotta : MiniGame
             snows--;
             Destroy(collision.gameObject);
         }
-    }
-    IEnumerator WinDelay()
-    {
-        yield return new WaitForSeconds(1);
-        Win();
     }
 }

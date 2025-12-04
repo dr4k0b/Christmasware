@@ -1,9 +1,11 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public abstract class MiniGame : MonoBehaviour
 {
-    public float startTime = 5;
+    private bool win;
+
     [HideInInspector]
     public float time;
 
@@ -11,12 +13,17 @@ public abstract class MiniGame : MonoBehaviour
     public GlobalInformation g;
     private void Awake()
     {
+        win = false;
         g = FindAnyObjectByType<GlobalInformation>();
-        time = startTime;
+        time = g.startTime;
     }
 
     public void Timer()
     {
+        if (win)
+        {
+            return;
+        }
         if (time > 0)
         {
             time -= Time.deltaTime * (1 + ((float)g.Difficulty / 10));
@@ -38,5 +45,11 @@ public abstract class MiniGame : MonoBehaviour
         g.result = GlobalInformation.Result.lose;
         g.health--;
         SceneManager.LoadScene("Intermission");
+    }
+    public IEnumerator WinDelay(float delay)
+    {
+        win = true;
+        yield return new WaitForSeconds(delay);
+        Win();
     }
 }

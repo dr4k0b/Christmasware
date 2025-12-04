@@ -50,6 +50,7 @@ MonoBehaviour:
   score: 0
   highScore: 0
   round: 0
+  startTime: 0
   Difficulty: 0
   pig: {fileID: 0}
   gamesLeft: 
@@ -67,7 +68,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::AudioManager
   sounds:
   - name: Main
-    clip: {fileID: 8300000, guid: e3e50ffc53b143243bbaaf7861361e07, type: 3}
+    clip: {fileID: 8300000, guid: 77e55142bea65f94ca5c6b90d686b610, type: 3}
     volume: 1
     pitch: 0
     loop: 1

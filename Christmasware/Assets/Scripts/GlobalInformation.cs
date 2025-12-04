@@ -9,6 +9,7 @@ public class GlobalInformation : MonoBehaviour
     public int score;
     public int highScore;
     public int round;
+    public float startTime;
     public int Difficulty;
     public Animator pig;
 

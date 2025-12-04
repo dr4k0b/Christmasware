@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Skotta.unity
     guid: 7e3ccd7cc3fe41e4db18183d20b41e56
+  - enabled: 1
+    path: Assets/Scenes/Hugga.unity
+    guid: 6378a586fa419764194156affad210fc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

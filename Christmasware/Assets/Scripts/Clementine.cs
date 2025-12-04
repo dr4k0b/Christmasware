@@ -53,14 +53,8 @@ public class Clementine : MiniGame
         if (clementine == 3)
         {
             aniKey.gameObject.SetActive(false);
+            StartCoroutine(WinDelay(1));
         }
-        else
-        {
-            Timer();
-        }
-        if (done)
-        {
-            Win();
-        }
+        Timer();
     }
 }

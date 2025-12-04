@@ -16,9 +16,9 @@ public class IntermissionLogic : MonoBehaviour
         g = FindAnyObjectByType<GlobalInformation>();
 
         g.round++;
-        if (g.round % 1 == 0)
+        if (g.round % 4 == 0)
         {
-            g.Difficulty++;
+            g.Difficulty += 3;
         }
 
         StartCoroutine(NextScene());

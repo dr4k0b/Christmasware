@@ -15,20 +15,12 @@ public class Present : MiniGame
         if (presentHealth <= clicks)
         {
             win.SetActive(true);
-            StartCoroutine(WinDelay());
-        }
-        else
-        {
-            Timer();
+            StartCoroutine(WinDelay(1));
         }
         if (Input.GetKeyUp(KeyCode.Space))
         {
             clicks++;
         }
-    }
-    IEnumerator WinDelay()
-    {
-        yield return new WaitForSeconds(1);
-        Win();
+        Timer();
     }
 }
