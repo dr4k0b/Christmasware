@@ -42,6 +42,7 @@ public class Clementine : MiniGame
         {
             clementine++;
             aniClementine.SetInteger("Peel", clementine);
+            g.GetComponent<AudioManager>().Play("Clementin");
 
             int prev = key;
             do

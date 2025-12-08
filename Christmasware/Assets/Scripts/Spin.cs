@@ -47,18 +47,22 @@ public class Spin : MiniGame
         if (dir == 0 && Input.GetKeyUp(KeyCode.A))
         {
             dir = 1;
+            g.GetComponent<AudioManager>().Play("Gröt");
         }
         else if (dir == 1 && Input.GetKeyUp(KeyCode.W))
         {
             dir = 2;
+            g.GetComponent<AudioManager>().Play("Fail");
         }
         else if (dir == 2 && Input.GetKeyUp(KeyCode.D))
         {
             dir = 3;
+            g.GetComponent<AudioManager>().Play("Fail");
         }
         else if (dir == 3 && Input.GetKeyUp(KeyCode.S))
         {
             dir = 0;
+            g.GetComponent<AudioManager>().Play("Fail");
         }
 
     }

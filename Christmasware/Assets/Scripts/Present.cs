@@ -28,6 +28,10 @@ public class Present : MiniGame
             g.GetComponent<AudioManager>().Play("Open");
             clicks++;
         }
+        if(time - Time.deltaTime <= 0)
+        {
+            g.GetComponent<AudioManager>().Stop("Cry");
+        }
         Timer();
     }
 }

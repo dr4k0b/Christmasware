@@ -104,7 +104,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Beep
     clip: {fileID: 8300000, guid: b803b1218e4494143bd9d0ea6f8fec74, type: 3}
-    volume: 1
+    volume: 0.6
     loop: 0
     source: {fileID: 0}
   - name: Skotta
@@ -130,5 +130,20 @@ MonoBehaviour:
   - name: Fail
     clip: {fileID: 8300000, guid: a1a0000c6b24b92448f78c586adaaf06, type: 3}
     volume: 1
-    loop: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Clementin
+    clip: {fileID: 8300000, guid: 313d447c8a0a645488fbd9e45c64b0a4, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: "Gr\xF6t"
+    clip: {fileID: 8300000, guid: 29560c862ec8ecf46a69ce8802028b25, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ClementinHEHE
+    clip: {fileID: 8300000, guid: 1559fc022bf73d14e91e6e81b25db0ef, type: 3}
+    volume: 1
+    loop: 0
     source: {fileID: 0}

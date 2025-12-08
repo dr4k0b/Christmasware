@@ -25,8 +25,8 @@ public class Hugga : MiniGame
             {
                 g.GetComponent<AudioManager>().Play("Fail");
             }
-            Timer();
         }
+        Timer();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
